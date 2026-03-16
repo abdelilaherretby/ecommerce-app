@@ -54,6 +54,8 @@ export default function Home() {
                   <Image source={{uri: banner.image}} 
                   className='w-full h-full' resizeMode='cover'/>
 
+                 <View className='absolute inset-0 bg-black/40' />
+                 
                   <View className='absolute bottom-4 left-4 z-10'>
                       <Text className='text-white text-2xl font-bold'>{banner.title}</Text>
                       <Text className='text-white text-sm font-medium '>{banner.subtitle}</Text>
@@ -62,7 +64,7 @@ export default function Home() {
                         text-xs">GET Now</Text>
                       </TouchableOpacity>
                   </View>
-                  <View className='absolute inset-0 bg-black/40' />
+                 
                 </View>
               )) }
 
